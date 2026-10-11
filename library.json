@@ -1,0 +1,38 @@
+{
+  "name": "BoxDrive",
+  "version": "1.0.0",
+  "description": "Complete Arduino library for the BoxPox BoxDrive closed-loop stepper controller (ESP32-C6 + TMC2209 + AS5600 + CAN). Supports StealthChop/SpreadCycle, closed-loop position control, encoder recording/playback, CAN bus copy-control, WiFi hotspot dashboard, BLE, and more.",
+  "keywords": [
+    "boxdrive",
+    "boxpox",
+    "stepper",
+    "motor",
+    "tmc2209",
+    "as5600",
+    "encoder",
+    "closed-loop",
+    "can-bus",
+    "esp32-c6",
+    "nema17",
+    "stealthchop"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BoxPoxin/BoxDrive_Library.git"
+  },
+  "authors": [
+    {
+      "name": "BoxPox",
+      "email": "support@boxpox.in",
+      "url": "https://boxpox.in"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://boxpox.in",
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "dependencies": {},
+  "build": {
+    "flags": "-DESP32"
+  }
+}

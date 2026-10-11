@@ -1,0 +1,103 @@
+#######################################
+# Syntax Highlighting for BoxDrive
+#######################################
+
+#######################################
+# Datatypes and Classes (KEYWORD1)
+#######################################
+BoxDrive	KEYWORD1
+BoxDriveCAN	KEYWORD1
+BoxDriveEncoder	KEYWORD1
+BoxDriveTMC	KEYWORD1
+BoxDriveProfile	KEYWORD1
+CANMessage	KEYWORD1
+ProfileType	KEYWORD1
+DriverMode	KEYWORD1
+BoxDriveConfig	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+move	KEYWORD2
+moveToAngle	KEYWORD2
+moveToStep	KEYWORD2
+setSpeed	KEYWORD2
+setAcceleration	KEYWORD2
+setCurrent	KEYWORD2
+setHoldCurrent	KEYWORD2
+setMicrosteps	KEYWORD2
+setMode	KEYWORD2
+enableMotor	KEYWORD2
+disableMotor	KEYWORD2
+stop	KEYWORD2
+emergencyStop	KEYWORD2
+isMotorEnabled	KEYWORD2
+readAngleDeg	KEYWORD2
+readAngleRad	KEYWORD2
+readRawAngle	KEYWORD2
+getMultiTurnAngle	KEYWORD2
+getAngularVelocity	KEYWORD2
+resetEncoderZero	KEYWORD2
+getMagnetStatus	KEYWORD2
+isMagnetDetected	KEYWORD2
+isMagnetTooStrong	KEYWORD2
+isMagnetTooWeak	KEYWORD2
+getAgcGain	KEYWORD2
+enableClosedLoop	KEYWORD2
+disableClosedLoop	KEYWORD2
+isClosedLoopEnabled	KEYWORD2
+setPIDGains	KEYWORD2
+getPositionError	KEYWORD2
+startRecording	KEYWORD2
+stopRecording	KEYWORD2
+playRecording	KEYWORD2
+isRecording	KEYWORD2
+isPlaying	KEYWORD2
+getRecordedSampleCount	KEYWORD2
+initCAN	KEYWORD2
+sendAngleCAN	KEYWORD2
+receiveCAN	KEYWORD2
+enableCANCopyFollower	KEYWORD2
+startHotspot	KEYWORD2
+stopHotspot	KEYWORD2
+handleHotspot	KEYWORD2
+getHotspotIP	KEYWORD2
+startBLE	KEYWORD2
+stopBLE	KEYWORD2
+handleBLE	KEYWORD2
+enableStallGuard	KEYWORD2
+disableStallGuard	KEYWORD2
+getStallGuardResult	KEYWORD2
+isStalled	KEYWORD2
+homeSensorless	KEYWORD2
+setProfileType	KEYWORD2
+runProfile	KEYWORD2
+runDiagnostics	KEYWORD2
+readRegister	KEYWORD2
+writeRegister	KEYWORD2
+
+#######################################
+# Constants and Literals (LITERAL1)
+#######################################
+STEALTH_CHOP	LITERAL1
+SPREAD_CYCLE	LITERAL1
+PROFILE_TRAPEZOIDAL	LITERAL1
+PROFILE_S_CURVE	LITERAL1
+PROFILE_SINUSOIDAL	LITERAL1
+PIN_DIR	LITERAL1
+PIN_STEP	LITERAL1
+PIN_EN	LITERAL1
+PIN_DIAG	LITERAL1
+PIN_PWM	LITERAL1
+PIN_UART_RX	LITERAL1
+PIN_UART_TX	LITERAL1
+PIN_STATUS_LED	LITERAL1
+PIN_CAN_TX	LITERAL1
+PIN_CAN_RX	LITERAL1
+PIN_I2C_SCL	LITERAL1
+PIN_I2C_SDA	LITERAL1
+CAN_MSG_ID_ANGLE	LITERAL1
+CAN_MSG_ID_CMD	LITERAL1
+CAN_MSG_ID_STATUS	LITERAL1
+CAN_MSG_ID_SYNC	LITERAL1
